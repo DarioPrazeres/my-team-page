@@ -1,8 +1,83 @@
 body {
-    font-family: Roboto;
-    font-size: 18px;
+    font-family: "Monteserrat";
+    border: solid 1px red;
+    padding: 80px 300px 0px 300px;
+    margin:  20px 40px 0px 40px;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+/*--------General CSS--------*/
+h1 {
+    font-family: 'Lora';
+    font-style: normal;
+    font-size: 48px;
+    font-weight: 500;
+    padding: 2px;
+}
+
+h2 {
+    font-size: 41px;
+    font-weight: 600;
+    padding: 2px;
+}
+
+h3 {
+    font-size: 34px;
+    font-weight: 600;
+    padding: 2px;
+}
+
+h4 {
+    font-family: 'Lora';
+    font-size: 27px;
+    font-weight: 300;
+    padding: 2px;
+}
+
+h5 {
+    font-size: 20px;
+    font-weight: 600;
+    padding: 2px;
+}
+
+h6 {
+    font-size: 14px;
+    font-weight: 600;
+    padding: 2px;
+}
+p{
+    font-size: 24px;
     font-weight: 400;
-    line-height: 21px;
-    letter-spacing: 0em;
-    text-align: left;
+    font-style: normal;
+    line-height: 29px;
+}
+/*--------------Header CSS-----------*/
+header{
+    display: grid;
+    grid-template-columns:  50% 50%;
+}
+.body-project{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid rgb(38, 0, 255) 1px;
+}
+.employee-section{
+    display: grid;
+    width: 100%;
+    gap: 10px;
+    grid-template-columns: repeat(3, 32%);
+    grid-template-rows: repeat(3, 400px);
+    border: solid 1px yellow;
+}
+.employee{
+    border: solid red 1px;
+}
+@media only screen and (max-width: 800px) {
+
 }
