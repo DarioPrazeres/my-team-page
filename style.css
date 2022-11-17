@@ -72,11 +72,14 @@ header{
     width: 100%;
     gap: 10px;
     grid-template-columns: repeat(3, 32%);
-    grid-template-rows: repeat(3, 400px);
+    grid-template-rows: repeat(3, auto);
     border: solid 1px yellow;
 }
 .employee{
     border: solid red 1px;
+}
+.photo{
+    width: 100%;
 }
 @media only screen and (max-width: 800px) {
 
