@@ -79,7 +79,16 @@ header{
     border: solid red 1px;
 }
 .photo{
-    width: 100%;
+    height: 370px;
+}
+figure{
+    display: flex;
+}
+figcaption{
+    font-size: 18px;
+    transform: rotate(90deg);
+    border: 1px solid red;
+
 }
 @media only screen and (max-width: 800px) {
 
