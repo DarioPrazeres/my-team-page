@@ -1,6 +1,5 @@
 body {
     font-family: "Monteserrat";
-    border: solid 1px red;
     padding: 80px 300px 0px 300px;
     margin:  20px 40px 0px 40px;
 }
@@ -58,25 +57,28 @@ p{
 /*--------------Header CSS-----------*/
 header{
     display: grid;
+    width: 100%;
     grid-template-columns:  50% 50%;
+    border: solid 1px red;
 }
 .body-project{
+    margin-top: 100px;
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    border: solid rgb(38, 0, 255) 1px;
 }
 .employee-section{
     display: grid;
-    width: 100%;
-    gap: 10px;
+    gap: 2%;
     grid-template-columns: repeat(3, 32%);
-    grid-template-rows: repeat(3, auto);
-    border: solid 1px yellow;
+    grid-template-rows: repeat(2, auto);
+    height: auto;
 }
 .employee{
-    border: solid red 1px;
+}
+.employee:nth-child(2), .employee:nth-child(5){
+    margin-top: 80px;
 }
 .photo{
     height: 370px;
@@ -86,10 +88,49 @@ figure{
 }
 figcaption{
     font-size: 18px;
+    margin-top: 20px;
+    height: 15px;
+    margin-left: -5px;
     transform: rotate(90deg);
-    border: 1px solid red;
 
 }
-@media only screen and (max-width: 800px) {
-
+footer{
+    text-align: center;
+    margin-top: 5px;
+    padding: 10px;
+}
+@media only screen and (max-width: 1500px) {
+    body {
+        padding: 40px 200px 0px 200px;
+        margin:  10px 20px 0px 20px;
+    }
+}
+@media only screen and (max-width: 1200px) {
+    body {
+        padding: 20px 100px 0px 100px;
+        margin:  7px 16px 0px 16px;
+    }
+}
+@media only screen and (max-width: 1000px) {
+    body {
+        padding: 5px 10px 0px 10px;
+        margin:  5px 2px 0px 2px;
+    }
+    .body-project{
+        margin-top: 100px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .employee-section{
+        padding: 10px 20px 10px 20px;
+        grid-template-columns: repeat(2, 48%);
+    }
+    .employee:nth-child(5){
+        margin-top: 0px;
+    }
+    .employee:nth-child(2), .employee:nth-child(4), .employee:nth-child(6){
+        margin-top: 80px;
+    }
 }
