@@ -60,6 +60,9 @@ header{
     width: 100%;
     grid-template-columns:  50% 50%;
 }
+.who{
+    padding: 5px;
+}
 .body-project{
     margin-top: 100px;
     width: 100%;
@@ -75,22 +78,24 @@ header{
     height: auto;
 }
 .employee{
+    padding-right: 30px;
+    position: relative;
 }
 .employee:nth-child(2), .employee:nth-child(5){
     margin-top: 80px;
 }
 .photo{
     height: 370px;
+    
 }
 figure{
     display: flex;
 }
 figcaption{
     font-size: 18px;
-    margin-top: 20px;
-    height: 15px;
-    margin-left: -5px;
-    transform: rotate(90deg);
+    padding: 3px;
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
 
 }
 footer{
@@ -131,5 +136,14 @@ footer{
     }
     .employee:nth-child(2), .employee:nth-child(4), .employee:nth-child(6){
         margin-top: 80px;
+    }
+    header{
+        display: grid;
+        width: 100%;
+        grid-template-columns:  50% 50%;
+    }
+    header{
+        grid-template-columns:  100%;
+        gap: 60px;
     }
 }
