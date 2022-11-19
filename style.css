@@ -59,7 +59,6 @@ header{
     display: grid;
     width: 100%;
     grid-template-columns:  50% 50%;
-    border: solid 1px red;
 }
 .body-project{
     margin-top: 100px;
@@ -96,7 +95,7 @@ figcaption{
 }
 footer{
     text-align: center;
-    margin-top: 5px;
+    margin-top: 50px;
     padding: 10px;
 }
 @media only screen and (max-width: 1500px) {
