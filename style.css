@@ -10,8 +10,8 @@ body {
 }
 
 /*--------General CSS--------*/
-h1 {
-    font-family: 'Lora';
+h1 {    
+    font-family: 'PT Serif';
     font-style: normal;
     font-size: 48px;
     font-weight: 500;
@@ -96,7 +96,7 @@ figcaption{
     padding: 3px;
     writing-mode: vertical-rl;
     text-orientation: mixed;
-
+    font-family: 'PT Serif';
 }
 footer{
     text-align: center;
