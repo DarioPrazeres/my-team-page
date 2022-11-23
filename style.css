@@ -102,6 +102,11 @@ footer{
     text-align: center;
     margin-top: 50px;
     padding: 10px;
+    color: rgb(112, 108, 108);
+}
+footer a{
+    text-decoration: none;
+    color: rgb(65, 63, 63);
 }
 @media only screen and (max-width: 1500px) {
     body {
@@ -145,5 +150,11 @@ footer{
     header{
         grid-template-columns:  100%;
         gap: 60px;
+    }
+}
+@media only screen and (max-width: 1000px) {
+    .photo{
+        height: 250px;
+        
     }
 }
