@@ -2,6 +2,7 @@ body {
     font-family: "Monteserrat";
     padding: 80px 300px 0px 300px;
     margin:  20px 40px 0px 40px;
+    width: 100%;
 }
 
 * {
@@ -61,6 +62,7 @@ header{
     grid-template-columns:  50% 50%;
 }
 .who{
+    width: 70%;
     padding: 5px;
 }
 .body-project{
@@ -122,8 +124,8 @@ footer a{
 }
 @media only screen and (max-width: 1000px) {
     body {
-        padding: 5px 10px 0px 10px;
-        margin:  5px 2px 0px 2px;
+        padding: 5px ;
+        margin:  5px;
     }
     .body-project{
         margin-top: 100px;
@@ -133,8 +135,9 @@ footer a{
         align-items: center;
     }
     .employee-section{
-        padding: 10px 20px 10px 20px;
-        grid-template-columns: repeat(2, 48%);
+        padding: 10px 0px 10px 0px;
+        grid-template-columns: repeat(2, 46%);
+        gap: 5px;
     }
     .employee:nth-child(5){
         margin-top: 0px;
@@ -153,8 +156,24 @@ footer a{
     }
 }
 @media only screen and (max-width: 1000px) {
+
+    *{
+        margin: 0;
+    }
+    body{
+        width: 100%;
+    }
+    .body-project{
+        width: 100%;
+    }
     .photo{
         height: 250px;
-        
+    }
+    .employee-section{
+        grid-template-columns: repeat(2, 48%);
+        gap: 7px;
+    }
+    .employee{
+        padding-right: 0px;
     }
 }
