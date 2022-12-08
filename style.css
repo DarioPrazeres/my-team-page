@@ -160,6 +160,9 @@ footer a{
     *{
         margin: 0;
     }
+    figcaption{
+        font-size: 16px;
+    }
     body{
         width: 100%;
     }
@@ -167,7 +170,7 @@ footer a{
         width: 100%;
     }
     .photo{
-        height: 250px;
+        height: 220px;
     }
     .employee-section{
         grid-template-columns: repeat(2, 48%);
